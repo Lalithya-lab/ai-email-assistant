@@ -1,0 +1,874 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f6fa;
+  color: #333;
+}
+
+.topbar {
+  background: #2563eb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+.sidebar {
+  width: 25%;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background: #f0f0f0;
+}
+
+.main-panel {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.email-details {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+}
+
+.send-email {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.send-email input,
+.send-email textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-email button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-email button:hover {
+  background: #1e40af;
+} */
+
+
+
+
+
+
+
+
+/* body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #fdfdfd;
+  color: #333;
+}
+
+
+.topbar {
+  background: linear-gradient(90deg, #f6d5f7, #fbe9d7);
+  color: #444;
+  padding: 0.6rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  height: calc(100vh - 50px);
+}
+
+
+.sidebar {
+  width: 25%;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 0.8rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  margin: 0 0 0.8rem 0;
+  color: #666;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar li:hover {
+  background: #f3f3f3;
+}
+
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #d7e4ff;
+  color: #444;
+}
+
+
+.main-panel {
+  flex: 1;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+
+.email-details {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+.email-details h3,
+.email-details h4 {
+  margin: 0.4rem 0;
+  font-family: Arial, sans-serif;
+}
+
+.email-details p {
+  font-family: "Georgia", serif;
+  font-size: 0.95rem;
+  white-space: pre-line;
+}
+
+.email-details strong {
+  font-weight: 600;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.send-email {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.send-email h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.send-email input,
+.send-email textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-email button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-email button:hover {
+  background: #5146d6;
+} */
+
+
+
+
+/* body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+
+.topbar {
+  background: linear-gradient(90deg, #fbe9d7, #d7f5f5);
+  color: #333;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+
+.container {
+  display: flex;
+  height: calc(100vh - 40px);
+}
+
+
+.sidebar {
+  width: 25%;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 0.8rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  margin: 0 0 0.8rem 0;
+  color: #666;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar li:hover {
+  background: #f3f3f3;
+}
+
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #d7e4ff;
+  color: #444;
+  flex-shrink: 0;
+}
+
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: auto;
+  color: #b33;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+
+.email-text {
+  flex: 1;
+}
+
+
+.main-panel {
+  flex: 1;
+  padding: 1.2rem;
+  overflow-y: auto;
+}
+
+
+.email-details {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.2rem;
+  border-radius: 5px;
+  line-height: 1.6;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-details .placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.email-details h3,
+.email-details h4 {
+  margin: 0.4rem 0;
+  font-family: Arial, sans-serif;
+}
+
+.email-details p {
+  font-family: "Georgia", serif;
+  font-size: 0.95rem;
+  white-space: pre-line;
+}
+
+.email-details strong {
+  font-weight: 600;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.send-email {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.send-email h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.send-email input,
+.send-email textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-email button {
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-email button:hover {
+  background: #5146d6;
+} */
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+/* Topbar */
+.topbar {
+  /*background: linear-gradient(90deg, #e3d9ff, #fce3e3);*/
+  background: linear-gradient(90deg, #CCFFFF, #CC0099);
+  color: #333;
+  padding: 0.8rem;   /* broader height */
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  height: calc(100vh - 55px); /* adjusted for taller topbar */
+}
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 0.8rem;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  margin: 0 0 0.8rem 0;
+  color: #666;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.6rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.sidebar li:hover {
+  background: #f3f3f3;
+}
+
+/* Avatar */
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #d7e4ff;
+  color: #444;
+  flex-shrink: 0;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: auto;
+  color: #b33;
+}
+
+.delete-btn:hover {
+  color: red;
+}
+
+/* Email Text in Sidebar */
+.email-text {
+  flex: 1;
+}
+
+/* Main Panel */
+.main-panel {
+  flex: 1;
+  padding: 1.2rem;
+  overflow-y: auto;
+}
+
+/* Email Details */
+.email-details {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+.email-meta {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.email-body,
+.email-reply {
+  margin-top: 1rem;
+  font-family: "Georgia", serif;
+  font-size: 0.95rem;
+  white-space: pre-line;
+}
+
+.email-date {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Compose Email */
+.send-email {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.send-email h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.send-email input,
+.send-email textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-email button {
+  background: #CC33FF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.send-email button:hover {
+  background: #9900CC;
+}
+
+
+
+
+/* Send button styling */
+.send-btn {
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.send-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, #5a73f8, #e74c77);
+}
+
+.send-btn i {
+  margin: 0;
+}
+
+
+
+
+
+
+/* Sidebar Inbox */
+.sidebar {
+  background: #f9f9f9;
+  padding: 15px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* full height */
+}
+
+.sidebar h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Divider line */
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* Scrollable email list */
+.email-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;  /* ✅ enables vertical scroll */
+  flex: 1;           /* ✅ takes remaining space */
+  max-height: calc(100vh - 100px); /* ✅ keeps within viewport */
+}
+
+.email-list li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.email-list li:hover {
+  background: #f1f1f1;
+}
+
+
+/* Sidebar */
+.sidebar {
+  width: 25%;
+  background: #fff;
+  border-right: 1px solid #ddd;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  /* ❌ Removed height: 100vh (conflicted with container height) */
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  margin: 0 0 0.8rem 0;
+  color: #666;
+}
+
+/* Divider line */
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+/* ✅ Scrollable email list */
+.email-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Email items */
+.email-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  padding: 0.6rem;
+  border-bottom: 1px solid #eee;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.email-list li:hover {
+  background: #f3f3f3;
+}
+
+
+
+
+
+
+/* Logout Button */
+#logoutBtn {
+  background-color: #e74c3c; /* red */
+  color: white;
+  border: none;
+  padding: 8px 20px; /* wider */
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#logoutBtn:hover {
+  background-color: #c0392b;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+.topbar {
+  background: linear-gradient(90deg, #CCFFFF, #CC0099);
+  color: #333;
+  padding: 0.8rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers logo container */
+  position: relative; /* for logout button positioning */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+/* Keep logout button on right */
+#logoutBtn {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+#logoutBtn:hover {
+  background-color: #c0392b;
+  transform: translateY(-50%) translateY(-2px);
+}
+
+
+
+
+
+
+
+/* ===== RESPONSIVE STYLING ===== */
+
+/* For tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #ddd;
+    max-height: 200px;
+  }
+
+  .main-panel {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #logoutBtn {
+    padding: 6px 15px;
+    font-size: 0.85rem;
+  }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 768px) {
+  .topbar h1 {
+    font-size: 1.1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-height: 150px;
+    padding: 0.5rem;
+  }
+
+  .main-panel {
+    width: 100%;
+    padding: 0.8rem;
+  }
+
+  .send-email input,
+  .send-email textarea {
+    font-size: 0.9rem;
+  }
+
+  #logoutBtn {
+    padding: 5px 12px;
+    font-size: 0.8rem;
+  }
+
+  .send-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
